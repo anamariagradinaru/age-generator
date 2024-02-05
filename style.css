@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #f0f0f0;
+    --purple-color: #854dff;
+    --black-text-color: #252525;
+    --red-color: #ff5959;
+    --gray-text-color: #716f6f;
+    --line-color: #dcdcdc;
+}
+body {
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content-container {
+    background-color: #fff;
+    width: 840px;
+    height: 651px;
+    border-radius: 24px 24px 200px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.age-card h1 {
+    font-size: 104px;
+    font-weight: 800;
+}
+.age-card span {
+    color: var(--purple-color);
+}
+
+.card-content {
+    border: 1px solid var(--line-color);
+    border-radius: 10px;
+    width: 120px;
+    padding: 5px;
+}
+.card-content-container h1 {
+    font-size: 15px;
+    color: var(--gray-text-color);
+}
+.card-content-container p {
+    font-size: 30px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}
